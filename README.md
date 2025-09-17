@@ -22,8 +22,6 @@ luci-app-modemband, luci-app-sms-tool-js, luci-app-3ginfo-lite
 
 luci-proto-qmi, luci-proto-modemmanager
 
-Automated build script: generates sysupgrade.bin and extracts kernel.itb if available
-
 This build is ideal for users who want a plug-and-play firmware for ZTE MF286D, with full modem capabilities, 4G LTE enhancements, and extensibility through custom feeds.
 
 # Install Serial Port
