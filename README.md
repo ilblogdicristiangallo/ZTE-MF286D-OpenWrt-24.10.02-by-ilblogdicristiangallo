@@ -42,6 +42,8 @@ setenv ipaddr 192.168.1.72
 set fdt_high 0x85000000
 
 tftp openwrt-24.10.2-ipq40xx-generic-zte_mf286d-initramfs-zImage_by_ilblogdicristiangallo.itb
+
+bootm $loadaddr 
 </pre>
 
 Terminal Upgrade Process
