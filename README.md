@@ -22,6 +22,31 @@ luci-app-modemband, luci-app-sms-tool-js, luci-app-3ginfo-lite
 
 luci-proto-qmi, luci-proto-modemmanager
 
+ # NEWS PACKET Italy APN Setup
+The apn-web.ipk package allows automatic APN configuration for all Italian mobile operators directly from the web, using either desktop or mobile browsers. Apn-web_1.0_all.ipk is a package for OpenWrt that enables automatic APN configuration for all Italian mobile operators through a web interface. The interface is compatible with both desktop and mobile browsers and is designed to configure WAN connections using the QMI protocol.
+
+<pre>https://github.com/ilblogdicristiangallo/apn-web-html_ipk.git</pre>
+
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen1</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb.png?raw=true" alt="Screen1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview of the APN Web Interface</p>
+</div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen2</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb2.png?raw=true" alt="Screen2" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview 2 of the APN Web Interface</p>
+</div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen3</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apnweb3.png?raw=true" alt="Screen3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
+  <p style="color: #555; font-size: 14px;">Preview 3 of the APN Web Interface</p>
+</div>
+
+# Access 
+Open your browser and visit:
+<pre>http://192.168.1.1/apn.html </pre>
+
 This build is ideal for users who want a plug-and-play firmware for ZTE MF286D, with full modem capabilities, 4G LTE enhancements, and extensibility through custom feeds.
 
 # Install Serial Port
