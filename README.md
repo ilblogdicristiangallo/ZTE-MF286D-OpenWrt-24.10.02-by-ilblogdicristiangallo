@@ -22,6 +22,9 @@ luci-app-modemband, luci-app-sms-tool-js, luci-app-3ginfo-lite
 
 luci-proto-qmi, luci-proto-modemmanager
 
+# Package incluse
+luci-proto-wireguard, wireguard-tools
+
  # NEWS PACKET Italy APN Setup
 The apn-web.ipk package allows automatic APN configuration for all Italian mobile operators directly from the web, using either desktop or mobile browsers. Apn-web_1.0_all.ipk is a package for OpenWrt that enables automatic APN configuration for all Italian mobile operators through a web interface. The interface is compatible with both desktop and mobile browsers and is designed to configure WAN connections using the QMI protocol.
 
