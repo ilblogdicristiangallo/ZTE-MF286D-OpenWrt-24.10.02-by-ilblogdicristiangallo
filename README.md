@@ -28,7 +28,7 @@ luci-proto-wireguard, wireguard-tools
  # NEWS PACKET Italy APN Setup
 The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly through a web interface, accessible from both desktop and mobile browsers. It is designed to simplify the setup of WAN connections, initially using the QMI protocol.
 
-With the updated version apn-web_1.0.1_all.ipk, the package introduces full support for 5G routers, thanks to the integration and full functionality of ModemManager, which is included in the package. This means that users with 5G modems/routers can now benefit from automatic APN configuration, regardless of the protocol used by the modem (QMI, MBIM, etc.).
+With the updated version apn-web_1.0.2_all.ipk, the package introduces full support for 5G routers, thanks to the integration and full functionality of ModemManager, which is included in the package. This means that users with 5G modems/routers can now benefit from automatic APN configuration, regardless of the protocol used by the modem (QMI, MBIM, etc.).
 
 Main Features:
 
