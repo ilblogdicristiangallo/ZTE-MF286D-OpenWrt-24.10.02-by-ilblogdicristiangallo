@@ -28,7 +28,7 @@ luci-proto-wireguard, wireguard-tools
  # NEWS PACKET Italy APN Setup
 The apn-web.ipk package enables automatic APN configuration for all Italian mobile operators directly through a web interface, accessible from both desktop and mobile browsers. It is designed to simplify the setup of WAN connections, initially using the QMI protocol.
 
-With the updated version apn-web_1.0.2_all.ipk, the package introduces full support for 5G routers, thanks to the integration and full functionality of ModemManager, which is included in the package. This means that users with 5G modems/routers can now benefit from automatic APN configuration, regardless of the protocol used by the modem (QMI, MBIM, etc.).
+With the updated version apn-web_1.0.3_all.ipk, the package introduces full support for 5G routers, thanks to the integration and full functionality of ModemManager and MBIM Cellular, which is included in the package. This means that users with 5G modems/routers can now benefit from automatic APN configuration, regardless of the protocol used by the modem (QMI, ModemManager and MBIM Cellular.).
 
 Main Features:
 
@@ -50,7 +50,7 @@ ModemManager included and fully functional in all versions of the package
 <div style="text-align: center; margin: 20px 0;">
   <h3>Screen 1</h3>
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen.png?raw=true" alt="APN Web Interface Screen 1" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
-  <p style="color: #555; font-size: 14px;">Initial APN selection interface (QMI or ModemManager supported)</p>
+  <p style="color: #555; font-size: 14px;">Initial APN selection interface (QMI, ModemManager and MBIM Cellular supported)</p>
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
@@ -59,11 +59,17 @@ ModemManager included and fully functional in all versions of the package
   <p style="color: #555; font-size: 14px;">APN details pre-filled with detection based on selected modem type</p>
 </div>
 
+
 <div style="text-align: center; margin: 20px 0;">
   <h3>Screen 3</h3>
   <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web1.0.1-Screen3.png?raw=true" alt="APN Web Interface Screen 3" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
-  <p style="color: #555; font-size: 14px;">Final configuration confirmation with available action buttons</p>
+
 </div>
+<div style="text-align: center; margin: 20px 0;">
+  <h3>Screen 4</h3>
+  <img src="https://github.com/ilblogdicristiangallo/apn-web-html_ipk/blob/main/Screenshot/apn-web-1.0.3-interface2.png" alt="APN Web Interface Screen 4" width="600" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+</div>
+
 
 
 # Access 
