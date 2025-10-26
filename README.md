@@ -106,3 +106,6 @@ If you don't have a GUI (LuCI) available, you can alternatively upgrade via the 
 # sysupgrade
 Login as root via SSH on 192.168.1.1, then enter the following commands:
 <pre>sysupgrade openwrt-24.10.2-ipq40xx-generic-zte_mf286d-initramfs-zImage_by_ilblogdicristiangallo_sysupgrade.bin</pre>
+
+# Visit my blog
+https://www.ilblogdicristiangallo.com
